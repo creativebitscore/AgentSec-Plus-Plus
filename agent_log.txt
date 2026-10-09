@@ -1,0 +1,6 @@
+[LoginFailure] IP=192.168.1.10 Action=Ignore Confidence=0.43 Reason=Rule=LoginRule DCS=0.43 Strategy=Balanced
+[LoginFailure] IP=192.168.1.10 Action=BlockIP Confidence=0.64 Reason=Rule=LoginRule DCS=0.64 Strategy=Balanced
+[PortScan] IP=10.0.0.5 Action=Ignore Confidence=0.565 Reason=Rule=PortScanRule DCS=0.565 Strategy=Balanced
+[FileTampering] IP=192.168.1.22 Action=QuarantineDevice Confidence=0.61 Reason=Rule=FileTamperingRule DCS=0.61 Strategy=Balanced
+[MalwareAlert] IP=172.16.0.9 Action=QuarantineDevice Confidence=0.705 Reason=Rule=MalwareRule DCS=0.705 Strategy=Balanced
+[LoginFailure] IP=203.0.113.4 Action=Ignore Confidence=0.295 Reason=Rule=LoginRule DCS=0.295 Strategy=Balanced
