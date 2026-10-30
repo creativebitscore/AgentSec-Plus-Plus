@@ -244,4 +244,4 @@ Expected output: `6/6 tests passed.`
 - Severity is supplied directly in the input data rather than derived from
   raw signal analysis
 - This is a research/educational simulation — it does not integrate with
-  any real firewall, IDS, or live network traffic
+  any real firewall, IDS, or 
